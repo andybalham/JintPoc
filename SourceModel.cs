@@ -15,7 +15,7 @@ namespace JintPocConsoleApp
     internal class SourceModel
     {
         public Decimal LoanAmount { get; set; }
-        public string securityPostcode { get; set; }
+        public string? securityPostcode { get; set; }
         public SecurityType SecurityType { get; set; }
     }
 }
